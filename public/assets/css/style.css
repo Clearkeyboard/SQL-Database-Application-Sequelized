@@ -1,0 +1,68 @@
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+  list-style: none;
+  border-radius: 25px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+#burgername{
+  font-size: 1.5em;
+}
+
+button {
+  border-radius: 10px;
+  display: inline-block;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#burgerimg {
+  height: 100px;
+  width: 200px;
+  margin-top: -92px;
+  margin-left: 209px;
+}
